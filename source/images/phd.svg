@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="71px" height="79px" viewBox="0 0 71 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>phd</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="phd" filter="url(#filter-1)" transform="translate(3.000000, 3.000000)" stroke="#FFFFFF">
+            <g id="Page-1">
+                <g id="noun_532339_cc">
+                    <path d="M7.741,26.861 L41.085,26.861" id="Shape" stroke-width="2.4137"></path>
+                    <path d="M7.741,31.684 L41.085,31.684" id="Shape" stroke-width="2.4137"></path>
+                    <path d="M7.741,17.204 L41.085,17.204" id="Shape" stroke-width="2.4137"></path>
+                    <path d="M7.741,22.033 L41.085,22.033" id="Shape" stroke-width="2.4137"></path>
+                    <path d="M7.741,36.518 L24.788,36.518" id="Shape" stroke-width="2.4137"></path>
+                    <polyline id="Shape" stroke-width="2.4137" points="49.112 38.339 49.112 0.207 0.207 0.207 0.207 67.95 49.112 67.95 49.112 64.523"></polyline>
+                    <path d="M60.207,48.737 C60.207,54.874 55.234,59.846 49.108,59.846 C42.973,59.846 38,54.874 38,48.737 C38,42.611 42.973,37.638 49.108,37.638 C55.234,37.638 60.207,42.611 60.207,48.737 L60.207,48.737 L60.207,48.737 Z" id="Shape" stroke-width="2.4137"></path>
+                    <polygon id="Shape" stroke-width="1.5984" fill="#000000" points="54.972 47.521 49.133 49.366 43.291 47.521 49.133 45.677"></polygon>
+                    <polygon id="Shape" stroke-width="1.5984" fill="#000000" points="52.25 52.368 46.014 52.368 46.014 50.927 49.133 51.724 52.25 50.927"></polygon>
+                    <path d="M55.291,47.538 L55.291,51.83" id="Shape" stroke-width="0.7992"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

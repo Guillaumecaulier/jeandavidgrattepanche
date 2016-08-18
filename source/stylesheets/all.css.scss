@@ -1,0 +1,299 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300);
+
+
+// Welcome, be compliant, I'm a front-end developper Junior
+
+
+#particles-js {
+  height: 100vh;
+  width:100vw;
+  position: relative;
+  z-index:1;
+}
+
+// colors
+
+$white: rgb(248,248,248);
+$black: rgb(45,45,45);
+$black-transparent: rgba(45,45,45,0.5);
+$blue: white;
+$light-blue: #1e5799;
+$light-green: #2dabab;
+
+
+
+// font-family
+
+$abel: 'Abel', sans-serif;
+$ubuntu: 'Ubuntu', sans-serif;
+
+.font-light {
+  font-weight: 300;
+}
+
+.big-text {
+  font-size: 20px;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(left, #1e5799 0%,#2dabab 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+// shadow
+.shadow {
+  text-shadow: 2px 2px 2px $black;
+}
+
+.b-shadow {
+  box-shadow: 3px 3px 3px $black-transparent;
+}
+
+// balise h
+h1, h2, h3 {
+  font-family: $abel;
+  font-weight: 400;
+}
+
+h4, h5, h6 {
+  font-family: $abel;
+}
+
+h1 {
+  color: $white;
+}
+
+h4, h3 {
+  color: $light-blue;
+
+}
+a {
+  color: $black;
+  text-decoration:none !important;
+}
+
+
+body {
+  background-color: $white;
+  font-family: $ubuntu;
+  font-weight: 300;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+mark {
+  background-color: rgba(255,215,0,0.5);
+
+}
+
+// space
+
+.pt {
+  padding-top: 80px;
+}
+
+.ptb {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.ptb-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.ptb-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+// think to delete these css class if i don't use them !
+//  Warning petite perruche!
+
+.space-15 {
+  height: 15px;
+}
+
+.space-30 {
+  height: 30px;
+}
+
+// button & link
+
+.link-btn {
+  border: 1px solid $light-blue;
+  color: $light-blue;
+  padding: 8px 12px 12px;
+  border-radius: 4px;
+  &:hover {
+    background: #1e5799;
+    border: none;
+    color: $white;
+  }
+}
+
+.dashed-border {
+  border-bottom: 1px dashed $black;
+}
+
+.color-border {
+  border-left: 14px solid rgba(30,87,153,0.1);
+  border-bottom: 10px solid rgba(30,87,153,0.3);
+}
+
+// navbar
+
+#main-menu {
+    padding: 20px;
+    transition: all 0.8s;
+}
+#main-menu.navbar-default {
+    background-color: rgba(248, 248, 248, 0);
+}
+#main-menu a.navbar-brand {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: $white;
+    font-weight: 900;
+    font-family: $ubuntu;
+}
+#main-menu a.navbar-brand i {
+    color: white;
+}
+#main-menu.navbar-default .navbar-nav > li > a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.on {
+    background-color: #ffffff !important;
+    padding: 0 !important;
+}
+.navbar.navbar-default.navbar-fixed-top {
+    border-bottom: 1px solid transparent;
+}
+.navbar.navbar-default.navbar-fixed-top.on {
+    border-bottom: 1px solid #eee;
+    li > a , .navbar-brand, i {
+      color: black !important;
+    }
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #333 !important;
+    background-color: transparent;
+    font-weight: 700;
+}
+.navbar-toggle {
+    border-radius: 0;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: $blue;
+    border-color: $blue;
+    color: #333;
+}
+.navbar-default .navbar-toggle:hover>.icon-bar {
+    background-color: #333;
+}
+
+
+// header
+#header {
+  background: url(https://images.unsplash.com/reserve/AXx3QORhRDKAMrbb8pX4_photo%202.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=248f57b09c4fa1f9955e4eacdbb21e6e);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  .content{
+    display: block;
+    position: absolute;
+    top:35%;
+    height:200px;
+    width:100%;
+    z-index: 100;
+    box-sizing: border-box;
+  }
+  i {
+    color:$white;
+    font-size:30px;
+  }
+}
+
+.lead {
+  color: white;
+  letter-spacing: 0.2em;
+}
+
+
+// mini-header
+
+.mini-header {
+  background: url(https://images.unsplash.com/photo-1455164054733-7f3bc259f4de?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=20c2685cac4360944e119ea2268e29e1);
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
+  display: flex;
+  .header-title{
+    margin:auto;
+  }
+}
+
+
+// about
+
+#about {
+  background-color: $blue;
+  a {
+    text-decoration: underline;
+  }
+}
+
+
+#domains {
+  background: url(https://images.unsplash.com/photo-1455164054733-7f3bc259f4de?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=20c2685cac4360944e119ea2268e29e1);
+  background-size: cover;
+  background-position: top center;
+  h4 {
+    color: $white;
+  }
+}
+
+// Programs
+
+#programs {
+  background-color: $blue;
+}
+
+svg {
+  fill: $blue;
+}
+
+
+// footer
+
+#circle {
+  fill: $black;
+}
+
+#footer {
+  color: $black;
+  hr {
+    border-color: $black;
+    border-width: 1px 0;
+  }
+}
+
+#gui {
+  font-size: 10px;
+}
+
+.Rg {
+  padding-right: 10px;
+}
+
